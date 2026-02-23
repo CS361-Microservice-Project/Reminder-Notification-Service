@@ -50,7 +50,7 @@ app = Flask(__name__)
 @app.route("/process", methods=["POST"])
 def generate():
 
-    #
+    # Listening on port, waiting to receive json object.
     data = request.get_json()
 
 
@@ -97,6 +97,7 @@ def generate():
 
 if __name__ == "__main__":
     app.run(port=8001)
+
 
 
 
