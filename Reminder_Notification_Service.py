@@ -63,7 +63,7 @@ def generate():
     email = data["sender_email"]
     receiver_email = data["receiver_email"]
     app_password = data["password"]
-    subject = "Notification!"
+    subject = "Notification!" # Change this if you wish, can also be incorporated on client side.
     message = data["message"]
 
     # When sending over HTTP, datetime must be converted into isoformat(), here it is converted back to datetime.
@@ -97,6 +97,7 @@ def generate():
 
 if __name__ == "__main__":
     app.run(port=8001)
+
 
 
 
