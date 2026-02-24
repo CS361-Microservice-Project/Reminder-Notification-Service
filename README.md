@@ -31,4 +31,6 @@ To receive, the server-side will return a json object message to the client. Thi
 
 In this form, the JSON object will have been converted back into a string for the main program to manipulate as necessary.
 
+# UML Diagram
 
+![UML Diagram](UML_Reminder_Notification_Service.png)
